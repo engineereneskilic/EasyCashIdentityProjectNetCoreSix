@@ -19,4 +19,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EasyCashIdentityProjectNetCoreSix.DataAccessLayer\EasyCashIdentityProjectNetCoreSix.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\EasyCashIdentityProjectNetCoreSix.EntityLayer\EasyCashIdentityProjectNetCoreSix.EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>
