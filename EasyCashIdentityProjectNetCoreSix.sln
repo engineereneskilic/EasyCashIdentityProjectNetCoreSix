@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCashIdentityProjectNetCoreSix.EntityLayer", "EasyCashIdentityProjectNetCoreSix.EntityLayer\EasyCashIdentityProjectNetCoreSix.EntityLayer.csproj", "{77F2690B-9551-4A0A-A3B7-C0458215A662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCashIdentityProjectNetCoreSix.DataAccessLayer", "EasyCashIdentityProjectNetCoreSix.DataAccessLayer\EasyCashIdentityProjectNetCoreSix.DataAccessLayer.csproj", "{7DED86C7-F62D-4832-924B-96018B056A69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCashIdentityProjectNetCoreSix.BusinessLayer", "EasyCashIdentityProjectNetCoreSix.BusinessLayer\EasyCashIdentityProjectNetCoreSix.BusinessLayer.csproj", "{3D5B6A76-62F2-43FD-8ED1-D1DF8A9DDD11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCashIdentityProjectNetCoreSix.DtoLayer", "EasyCashIdentityProjectNetCoreSix.DtoLayer\EasyCashIdentityProjectNetCoreSix.DtoLayer.csproj", "{0552D8FC-BF3A-4074-80DC-EE7D51469BA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCashIdentityProjectNetCoreSix.PresentationLayer", "EasyCashIdentityProjectNetCoreSix.PresentationLayer\EasyCashIdentityProjectNetCoreSix.PresentationLayer.csproj", "{85B7DFC3-D23D-4CD2-ADA7-A1596C74E393}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77F2690B-9551-4A0A-A3B7-C0458215A662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F2690B-9551-4A0A-A3B7-C0458215A662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F2690B-9551-4A0A-A3B7-C0458215A662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F2690B-9551-4A0A-A3B7-C0458215A662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DED86C7-F62D-4832-924B-96018B056A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DED86C7-F62D-4832-924B-96018B056A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DED86C7-F62D-4832-924B-96018B056A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DED86C7-F62D-4832-924B-96018B056A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D5B6A76-62F2-43FD-8ED1-D1DF8A9DDD11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D5B6A76-62F2-43FD-8ED1-D1DF8A9DDD11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D5B6A76-62F2-43FD-8ED1-D1DF8A9DDD11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D5B6A76-62F2-43FD-8ED1-D1DF8A9DDD11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0552D8FC-BF3A-4074-80DC-EE7D51469BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0552D8FC-BF3A-4074-80DC-EE7D51469BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0552D8FC-BF3A-4074-80DC-EE7D51469BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0552D8FC-BF3A-4074-80DC-EE7D51469BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85B7DFC3-D23D-4CD2-ADA7-A1596C74E393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85B7DFC3-D23D-4CD2-ADA7-A1596C74E393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85B7DFC3-D23D-4CD2-ADA7-A1596C74E393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85B7DFC3-D23D-4CD2-ADA7-A1596C74E393}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
