@@ -18,5 +18,7 @@ namespace EasyCashIdentityProjectNetCoreSix.EntityLayer.Concrete
         public string City { get; set; }
 
         public string ImageUrl { get; set; }
+
+        public List<CustomerAccount> customerAccounts { get; set; }
     }
 }

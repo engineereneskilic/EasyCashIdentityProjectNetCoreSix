@@ -10,12 +10,16 @@ namespace EasyCashIdentityProjectNetCoreSix.EntityLayer.Concrete
     {
         public int CustomerAccountID { get; set; }
         
-        public string CustomerAccountNumber { get; set; }
+        public string CustomerAccountNumber { get; set; } // hesap numarası
         
-        public string CustomerAccountCurrency { get; set; }
+        public string CustomerAccountCurrency { get; set; } // döviz türü (tl/dolar/euro)
         
-        public decimal CustomerAccountBalance { get; set; }
+        public decimal CustomerAccountBalance { get; set; } // miktar
 
-        public string CustomerAccountBankBranch { get; set; }
+        public string CustomerAccountBankBranch { get; set; } // banka şubesi
+
+        public int AppUserID { get; set; }
+
+        public AppUser AppUser { get; set; }  // bire çok ilişk için
     }
 }
