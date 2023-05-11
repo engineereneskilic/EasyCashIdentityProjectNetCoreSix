@@ -24,6 +24,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+//sonradan eklendi
 app.UseAuthentication();
 app.UseAuthorization();
 
