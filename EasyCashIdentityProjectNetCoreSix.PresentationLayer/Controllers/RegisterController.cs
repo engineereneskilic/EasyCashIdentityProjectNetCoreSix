@@ -32,16 +32,14 @@ namespace EasyCashIdentityProjectNetCoreSix.PresentationLayer.Controllers
                     UserName = appUserRegisterDto.Username,
                     Name = appUserRegisterDto.Name,
                     Surname = appUserRegisterDto.Surname,
-                    Email = appUserRegisterDto.Email,
-                    City = "BOS",
-                    District = "bbb",
-                    ImageUrl = "ff"
+                    Email = appUserRegisterDto.Email
                 };
 
                 var result = await _userManager.CreateAsync(appUser, appUserRegisterDto.Password);
                 if (result.Succeeded)
                 {
                     return RedirectToAction("Index", "ConfirmMail");
+
                 } else
                 {
                     foreach (var item in result.Errors)
